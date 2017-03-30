@@ -21,7 +21,7 @@ if __name__ == '__main__':
     driver.find_element_by_xpath(".//*[@id='datepicker1']").click()
     driver.find_element_by_xpath(".//*[@id='ui-datepicker-div']/div[1]/table/tbody/tr[4]/td[6]/a").click()
     driver.find_element_by_xpath(".//*[@id='roundTrip']/a").click()
-    #driver.find_element_by_xpath(".//*[@id='roundTrip']/a").click()
-    #driver.close()
+    driver.find_element_by_xpath(".//*[@id='roundTrip']/a").click()
+    driver.close()
     
    
